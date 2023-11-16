@@ -1,0 +1,19 @@
+{
+  "name": "serverless-cd",
+  "version": "1.0.0",
+  "description": "15 Nov 2023: This repository is for  3.12 exercise.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeoCH07/serverless-cd.git"
+  },
+  "author": "hao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeoCH07/serverless-cd/issues"
+  },
+  "homepage": "https://github.com/NeoCH07/serverless-cd#readme"
+}
