@@ -11,7 +11,18 @@
 
   ```
 
-  2. To initialize node application (package.json).
+  2. To initialize node application.
   ```
-  npm init
+  npm init (package.json)
+  npm install serverless
+  npm install serverless-offline -- save-dev
   ```
+
+  3. Add the following files.
+  ```
+  index.js
+  serverless.yml
+  .gitignore
+  ```
+  
+  4. 
