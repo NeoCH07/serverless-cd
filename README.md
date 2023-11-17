@@ -14,8 +14,8 @@
   2. To initialize node application.
   ```
   npm init (package.json)
-  npm install serverless
-  npm install serverless-offline -- save-dev
+  npm install serverless (package.json >> dependencies)
+  npm install serverless-offline -- save-dev (package.json >> devDependencies)
   ```
 
   3. Add the following files.
@@ -25,4 +25,20 @@
   .gitignore
   ```
   
-  4. 
+  4. To start localhost:
+  ```
+  serverless offline start
+  ```
+
+  5. To deploy in AWS
+  ```
+  serverless deploy
+  -> at AWS console>cloudformation>find the infrastructure
+  -> at AWS lambda>functions>application name>configuration> triggers> api endpoint (can also refer to .code endpoint GET)
+  ```
+
+  6. serverless remove
+
+  7. add github/workflows/main.yml
+
+  
