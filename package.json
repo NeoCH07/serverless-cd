@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/NeoCH07/serverless-cd#readme",
   "dependencies": {
-    "serverless": "^3.36.0"
+    "serverless": "^3.37.0"
   },
   "devDependencies": {
     "serverless-offline": "^13.2.1"
